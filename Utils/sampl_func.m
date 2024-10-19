@@ -1,3 +1,12 @@
+% Graph-based scalable sampling of 3D point cloud attributes
+% IEEE. Transactions on Image Processing
+% Author: Shashank N. Sridhara, University of Southern California
+
+%Function to address corner cases for block-based sampling. 
+
+
+
+
 function [S] = sampl_func(Adj, srate, self_loop_mat, series_approx)
     %This function returns sampling set given Adjacency matrix and
     %self-loop matrix.
