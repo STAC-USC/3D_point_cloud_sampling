@@ -40,7 +40,7 @@ D = diag(sum(A,2));
     
 L = D - A;
 Lrr = L(~Sampling_set, ~Sampling_set); Lrs = L(~Sampling_set, Sampling_set);
-Yr = -Lrr\(Lrs*Y(Sampling_set,:));%matlab inbilt solver
+Yr = -Lrr\(Lrs*Y(Sampling_set,:));%matlab inbuilt solver
 Y_recon = zeros(npoints,1); Y_recon(~Sampling_set) = Yr; Y_recon(Sampling_set) = Y(Sampling_set,:);
 
 
