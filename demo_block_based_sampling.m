@@ -1,3 +1,10 @@
+
+% Graph-based scalable sampling of 3D point cloud attributes
+% IEEE. Transactions on Image Processing
+% Author: Shashank N. Sridhara, University of Southern California
+
+% Script to demonstrate proposed Rreconstruction-aware block sampling (RABS, Algorithm 2 in the paper).
+ 
  clear
  clc
  close all
