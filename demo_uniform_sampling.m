@@ -1,3 +1,9 @@
+% Graph-based scalable sampling of 3D point cloud attributes
+% IEEE. Transactions on Image Processing
+% Author: Shashank N. Sridhara, University of Southern California
+
+% Script to demonstrate proposed Uniform sampling (fixed-geometry sampling)
+
  clear
  clc
  close all
