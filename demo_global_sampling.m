@@ -15,7 +15,7 @@ addpath(extra_package_paths);
 point_cloud_path = "./longdress_vox10_1121.ply";
 pc = pcread(point_cloud_path);
 coordinates = double(pc.Location);
-npoints = size(V,1);
+npoints = size(coordinates,1);
   
 %% construct a k-NN graph on the entire point cloud
 K = 5;
